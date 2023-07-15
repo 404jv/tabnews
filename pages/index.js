@@ -32,6 +32,12 @@ function Home() {
     return () => clearInterval(countdown);
   }, []);
 
+  useEffect(() => {
+    const mjMusic = document.getElementById("mj-music");
+    if (!mjMusic) return;
+    mjMusic.play();
+  }, [])
+
   return (
     <div className={styles.container}>
 
@@ -45,6 +51,17 @@ function Home() {
         <button className={styles.buttonRed}>👎</button>
       </div>
 
+      {/* <video
+        controls
+        width="250"
+        src="/taylor.mp4"
+        type="video/webm"
+        title="Example Video"
+        autoplay="true"
+        muted="true"
+      ></video> */}
+
+      <audio src="/taylor.mp4" id="mj-music"></audio>
     </div>
   )
 }
