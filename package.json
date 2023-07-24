@@ -10,7 +10,6 @@
   "license": "MIT",
   "dependencies": {
     "next": "^13.1.6",
-    "react-confetti": "^6.1.0",
     "react-dom": "^18.2.0"
   }
 }
