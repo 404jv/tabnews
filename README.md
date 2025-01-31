@@ -1,4 +1,4 @@
-# clone-tabnews
+# Tabnews
 
 Projeto para aprender programação de verdade!
 
